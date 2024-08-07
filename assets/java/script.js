@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){const a=document.querySelectorAll(".toggle-details");a.forEach(a=>{a.addEventListener("click",function(){const a=this.parentElement.querySelector(".details");a.classList.toggle("show"),this.textContent=a.classList.contains("show")?"Ocultar Detalhes":"Mostrar Detalhes"})})});
